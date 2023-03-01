@@ -8,10 +8,10 @@ app.get('/', function (req, res) {
 
 app.use(express.json())
 app.get('*', (req,res) => {
-    
+
 })
 
-app.listen(process.env.PORT)
+app.listen(3001)
 
 
 
